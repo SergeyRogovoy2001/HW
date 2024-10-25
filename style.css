@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cubs {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; */
+    margin: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.cub1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: black solid 2px;
+}
+.cub2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: black solid 2px;
+}
+.cub3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: black solid 2px
+}
+.cub4 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: black solid 2px;
+}
+.cub5 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: black solid 2px;
+}
