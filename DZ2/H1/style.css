@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cubs {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; */
+    display: inline-block;
+    position: relative;
+    color: white;
+    margin: 10px;
+    width: 100%;
+}
+
+.cub1 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: black solid 2px;
+}
+.cub2 {
+    position: absolute;
+    color: black;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: black solid 2px;
+}
+.cub3 {
+    z-index: 3;
+    position: absolute;
+    margin-top: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: black solid 2px
+}
+.cub4 {
+    z-index: 2;
+    position: absolute;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    top: 250px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: black solid 2px;
+}
